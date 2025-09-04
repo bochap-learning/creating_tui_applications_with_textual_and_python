@@ -1,0 +1,15 @@
+[project]
+name = "creating-tui-applications-with-textual-and-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ruff>=0.12.11",
+    "textual>=6.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "textual-dev>=1.7.0",
+]
